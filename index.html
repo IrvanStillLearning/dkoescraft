@@ -1,0 +1,771 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!--====== Title ======-->
+    <title>D'Koes Craft</title>
+
+    <!--====== Favicon Icon ======-->
+    <!-- <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png"> -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+<!-- <link rel="icon" type="assets/image/png" sizes="16x16" href="assets/images/favicon-16x16.png"> -->
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--====== Animate css ======-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+
+    <!--====== Line Icons css ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--====== Responsive css ======-->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <style>
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            left: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .float i {
+            margin-top: 15px;
+        }
+
+        .product-title {
+            padding-bottom: 25px;
+        }
+
+        .product-item-image > a {
+            width: 262px;
+            height: 351px;
+            background-color: black;
+        }
+
+        .product-item-image:hover img {
+            opacity: .8;
+        }
+
+        .product-item-image:hover .detail {
+            opacity: 1;
+        }
+
+        .product-item-image {
+            border-radius: 20px;
+            position: relative;
+        }
+
+        .detail {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transition: .5s ease;
+            opacity: 0;
+        }
+
+        .product-item-image a img {
+            height: 100%;
+        }
+
+        @media(max-width: 530px) {
+            .showcase-1{display: none!important;}
+            .showcase-2{display: none!important;}
+            .showcase-3{display: none!important;}
+        }
+
+        @media(max-width: 576px) {
+            .product-item-image {
+                display: flex;
+                justify-content: center;
+            }
+
+            .product-item-image img {
+            border-radius: 20px;
+            }
+
+            .product-item-image .product-item-href {
+                background: none!important;
+                height: auto !important;
+            }
+        }
+
+        @media(max-width: 767px){
+            #product .container h4{
+                text-align: center;
+            }
+            .showcase-1{top: 70px!important}
+        }
+
+        @media(max-width: 992px){
+            .showcase-3{
+                bottom: 0!important;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body style="overflow-x: hidden!important;">
+
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+        <div class="spin">
+            <div class="cube1"></div>
+            <div class="cube2"></div>
+        </div>
+    </div>
+
+    <!--====== PRELOADER PART START ======-->
+
+    <!--====== HEADER PART START ======-->
+
+    <header class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" style="margin: auto" href="#top">
+                            <h3 style="font-family: 'Varela Round', sans-serif;">D'Koes Craft</h3>
+                        </a> <!-- Logo -->
+                    </nav> <!-- navbar -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== SLIDER PART START ======-->
+
+    <section id="home" class="slider-area pt-100">
+        <div class="container-fluid position-relative">
+            <div class="slider-active">
+                <div class="single-slider">
+                    <div class="slider-bg">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-lg-4 col-md-5">
+                                <div class="slider-product-image d-none d-md-block">
+                                    <img src="assets/images/blog/header-2.webp" alt="Slider">
+                                    <div class="slider-discount-tag">
+                                        <p>100% Handmade</p>
+                                    </div>
+                                </div> <!-- slider product image -->
+                            </div>
+                            <div class="col-lg-8 col-md-7"  >
+                                <div class="slider-product-content">
+                                    <h2 class="slider-title mb-10" data-animation="fadeInUp" data-delay="0.3s">
+                                        <span>Handmade </span>Accessories</h2>
+                                    <p class="mb-25" style="font-size: 18px;" data-animation="fadeInUp" data-delay="0.9s">We make handmade accessories with blends of ethnicities  and cultures elements</p>
+                                    <a class="main-btn" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20Anda...." target="_blank" data-animation="fadeInUp" data-delay="1.5s">Contact Us <i class="lni-chevron-right"></i></a>
+                                </div> <!-- slider product content -->
+                            </div>
+                        </div> <!-- row -->
+                    </div> <!-- container -->
+                </div> <!-- single slider -->
+            </div> <!-- slider active -->
+            <div class="slider-social">
+                <div class="row justify-content-end">
+                    <div class="col-lg-7 col-md-6">
+                        <ul class="social text-right">
+                            <li><a href="https://www.facebook.com/DKoes-Craft-915064952007922/" target="_blank"><i class="lni-facebook-filled"></i></a></li>
+                            <li><a href="https://www.instagram.com/dkoescraft/" target="_blank"><i class="lni-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- container fluid -->
+    </section>
+
+    <!--====== SLIDER PART ENDS ======-->
+
+    <!--====== PRODUCT PART START ======-->
+
+    <section id="product" class="product-area position-relative pt-100 pb-130">
+        <div style="position: absolute; top: 100px; left: 55px" class="showcase-1"><img src="assets/images/showcase/leaf.png" width="100px" alt=""></div>
+        <div style="position: absolute; transform: rotateY(180deg); right: 20px; top: 50px;" class="d-sm-none d-md-block showcase-2"><img src="assets/images/showcase/leaf-2.png" width="100" alt=""></div>
+        <h3 style="font-family: 'Varela Round', sans-serif; text-align: center;">Our Product</h3>
+        <div class="container pt-5">
+            <h4 class="py-5">Kalung etnik Bohemian</h4>
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-1.png" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_1">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-2.png" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_2">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-3.png" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_3">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-4.png" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_4">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-5.png" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_5">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-6.png" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_6">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-7.png" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_7">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-8.png" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_8">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-9.png" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_9">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-18.webp" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_18">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="py-5">Anting etnik Bohemian</h4>
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-29.webp" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_29">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-30.webp" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_30">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-10.jpg" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_10">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-11.jpg" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_11">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-12.jpg" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_12">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-13.jpg" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_13">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-16.webp" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_16">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="py-5">Vintage Bohemian Bracelet</h4>
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-17.webp" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_17">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-15.jpg" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_15">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-19.webp" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_19">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-14.jpg" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_14">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-20.webp" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_20">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-21.webp" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_21">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-22.webp" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_22">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-23.webp" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_23">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-24.webp" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_24">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-25.webp" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_25">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-26.webp" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_26product-26">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-27.webp" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_27">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-product-items mb-35">
+                        <div class="product-item-image">
+                            <a class="product-item-href">
+                                <img src="assets/images/product/product-28.webp" alt="Product" class="img-fluid img-item">
+                                <div class="detail">
+                                    <a target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20produk_28">
+                                        <button class="btn btn-info text-light btn-detail">Detail Product</button>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- row -->
+        <div style="position: absolute; bottom: 10%; right: 0; transform: rotateY(360deg);" class="showcase-3"><img src="assets/images/showcase/leaf.png" width="200px" alt=""></div>
+        </div> <!-- container -->
+    </section>
+
+    <!--====== PRODUCT PART ENDS ======-->
+
+
+    <!--====== FOOTER PART START ======-->
+
+    <section id="footer" class="footer-area">
+        <div class="container">
+            <div class="footer-widget pt-75 pb-120">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="footer-logo mt-40">
+                            <a href="#">
+                                <h3 style="font-family: 'Varela Round', sans-serif;">D'Koes Craft</h3>
+                                <p style="font-family: 'Pacifico', cursive; color: #858585">espically for you</p>
+                            </a>
+                            <p class="mt-10">Official handmade blends of ethnicities and cultures.</p>
+                            <ul class="footer-social mt-25">
+                                <li><a href="https://www.facebook.com/DKoes-Craft-915064952007922/" target="_blank"><i
+                                            class="lni-facebook-filled"></i></a></li>
+                                <li><a href="https://www.instagram.com/dkoescraft/" target="_blank"><i
+                                            class="lni-instagram"></i></a></li>
+                            </ul>
+                        </div> <!-- footer logo -->
+                    </div>
+
+                    <div class="col-lg-3"></div>
+                    
+                    <div class="col-lg-5 col-md-6 col-sm-6">
+                        <div class="footer-info mt-50">
+                            <h5 class="f-title">Contact Info</h5>
+                            <ul>
+                                <li>
+                                    <div class="single-footer-info mt-20">
+                                        <span>Phone :</span>
+                                        <div class="footer-info-content">
+                                            <a style="color: orange;" target="_blank" href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20Anda....">
+                                                +6282113751457
+                                            </a>
+                                        </div>
+                                    </div> <!-- single footer info -->
+                                </li>
+                                <li>
+                                    <div class="single-footer-info mt-20">
+                                        <span>Email :</span>
+                                        <div class="footer-info-content">
+                                            <p>srikusraeti@gmail.com</p>
+                                        </div>
+                                    </div> <!-- single footer info -->
+                                </li>
+                                <li>
+                                    <div class="single-footer-info mt-20">
+                                        <span>Address :</span>
+                                        <div class="footer-info-content">
+                                            <p>Jln. Karet Raya no 68 Perumnas 1 Tangerang</p>
+                                        </div>
+                                    </div> <!-- single footer info -->
+                                </li>
+                            </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- footer widget -->
+            <div class="footer-copyright pt-15 pb-15">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright text-center">
+                            <p>Copyright © 2023 <span style="color: orange;">D'KOESCRAFT</span></p>
+                        </div> <!-- copyright -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!--  footer copyright -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== FOOTER PART ENDS ======-->
+
+    <!--====== BACK TO TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+    <a href="https://wa.me/6285172204869?text=Halo,%20Saya%20Tertarik%20dengan%20Produk%20Anda...." class="float"><i class="lni lni-whatsapp"></i></a>
+
+    <!--====== BACK TO TOP PART ENDS ======-->
+
+
+
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+
+    <!--====== nav js ======-->
+    <script src="assets/js/jquery.nav.js"></script>
+
+    <!--====== Nice Number js ======-->
+    <script src="assets/js/jquery.nice-number.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
